@@ -11,11 +11,15 @@ public class Calc {
 	public static int prod(int num1,int num2) {
 		return num1*num2;
 	}
+	public static int div(int num1,int num2) {
+		return num1/num2;
+	}
 	
 	public static void main(String []args) {
 		System.out.println("Sum is "+(add(10,20)));
 		System.out.println("Difference is "+(subs(10,20)));
 		System.out.println("Product is "+(prod(10,20)));
+		System.out.println("Div is "+(div(10,20)));
 	}
 
 }
